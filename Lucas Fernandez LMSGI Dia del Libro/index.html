@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<meta charset="UTF-8">
+	<title>El Día del Libro</title>
+	<link rel="stylesheet" href="estilos.css"/>
+ 	<link rel="icon" type="image/x-icon" href="imagenes/favicon.jpg"/>
+</head>
+
+<body>
+
+	<h1><img class="libroParlante" src="imagenes/libroParlante.png" alt="Libro Parlanchin"/>El Día del Libro<img class="libroInvertido" src="imagenes/libroParlante.png" alt="Libro Parlanchin pero al revés"/></h1>
+	<br>
+	<br>
+
+	<div class="menuNavegadorDiv" id="menu">
+		<ul class="menuNavegadorUl">
+			<li><a class="menuNavegadorA" href="#introduccion">Introducción</a></li>
+			<li><a class="menuNavegadorA" href="#origen">Origen</a></li>
+			<li><a class="menuNavegadorA" href="#adopcion">Adopción</a></li>
+			<li><a class="menuNavegadorA" href="#recs">Recomendaciones</a></li>
+		</ul> 
+	</div>
+	
+	
+	<!--Notese que hemos introducido dos "<br>" antes contenido entre la apertura y el cierre del párrafo, lo hemos hecho así para que quede más centrado-->
+	<h2>23 de Abril</h2>
+	<p class="textoDragon"><img class="dragonPocaSangria" src="imagenes/cabeceraDiaDelLibro.jpeg" alt="23 de Abril, el Día del Libro"/><br><br> Bienvenidos a nuestra página sobre el día del libro, exploraremos su origen, su historia mas reciente, en que consiste y lo que motiva todo lo anterior</p>
+
+	<br>
+	<div id="introduccion">
+		<h3>Introducción</h3>
+		<img class="unescoMuchaSangria" src="imagenes/logoUnesco.png" alt="Logo de la UNESCO"/>
+		<p class="textosBurbuja">El día del libro es un evento anual organizado por las Naciones Unidas, concretamente, su órgano de la UNESCO con el propósito de promover la lectura, la publicación y derechos de autor. El primer día del libro se celebro en el año 1995</p>
+	</div>
+	
+	<br>
+	<div id="origen">
+		<h3>Origen</h3>
+		<img class="palauMuchaSangria" src="imagenes/palau1929.jpg" alt="Exposición Internacional, 1929"/>
+		<p class="textoPalau">El Palau durante la Exposición Internacional de Barcelona de 1929</p>
+		<p class="textosBurbuja">Vicente Clavel, director de la casa editorial Cervantes, selecciono el 23 de Abril del año 1930, debido a la defunción de Cervantes y la celebración del Día de San Jordi. Los primeros cuatro años, de 1926 al susodicho 1930, se celebraría el 7 de Octubre.</p>
+	</div>
+	
+	<br>
+	<div id="adopcion">
+		<h3>Adopción</h3>
+		<img class="clasicosMuchaSangria" src="imagenes/shakespeareEIncaGarcilaso.jpg" alt="Shakespeare e Inca Garcilaso"/>
+		<p class="textosBurbuja">Se cementó esta fecha debido a la coincidencia de la fecha de la muerte con la fecha de la muerte de William Shakespeare e Inca Garcilaso de la Vega(no sea confundido con Garcilaso de la Vega).</p>
+	</div>
+	
+	<br>
+	<br>
+	<div id="recs">
+		<h3>Recomendaciones</h3>
+		<img class="divRecs" src="imagenes/divRecomendaciones.png" alt="Divisor recomendaciones"/>
+		<ul class="recs">
+			<li class="tableando"><em>1- La Costa de los Mosquitos</em>- Paul Theroux</li><br>
+			<li class="tableando"><em>2- La Metamorfosis del Intelecto Primigeneo (Inglés)</em>- Roger Williams</li><br>
+			<li class="tableando"><em>3- Los Tres Estigmas de Palmer Eldritch</em>- Philip K. Dick</li><br>
+			
+			
+			
+		</ul>
+	</div>
+	
+	<div id="carruselRecs">
+			<img id="img" class="portadaRec" src="imagenes/recomendaciones/laCostaDeLosMosquitos.jpg" alt="La Costa de los Mosquitos"/>
+			<img id="img" class="portadaRecInvisible" src="imagenes/recomendaciones/metamorfosisDelIntelectoPrimigeneo.jpg" alt="La Metamorfosis del Intelecto Primigeneo"/>
+			<img id="img" class="portadaRecInvisible" src="imagenes/recomendaciones/losTresEstigmasDePalmerEldritch.jpg" alt="Los Tres Estigmas de Palmer Eldritch"/> 
+			<button onClick="mostrarAnterior()"><</button>
+			<button onClick="mostrarSiguiente()">></button>
+			<script src="js/javaScript.js"></script>
+	</div>
+	
+	<br>
+	<br>
+	<img class="logroYNombreIbq" src="imagenes/logoIbqYNombre.jpg" alt="Logo de IBQ y nombre">
+</body>
+
+</html>
