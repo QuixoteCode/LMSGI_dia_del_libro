@@ -1,0 +1,229 @@
+body {
+    background-color: rgb(255, 253, 208);	
+}
+
+
+
+
+
+
+
+
+img.libroParlante {
+	height: 5%;
+	width: 5%;
+}
+
+img.libroInvertido {
+	height: 5%;
+	width: 5%;
+	-webkit-transform: scaleX(-1);
+	transform: scaleX(-1);
+}
+
+
+/* Para centrar la imagen con el logotipo de nuestro instituto y nuestro nombre describimos su margen izquierdo y derecho como "auto" y lo convertimos en un elemento "bloque" */
+img.logroYNombreIbq {
+	height: 25%;
+	width: 25%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+
+
+
+
+
+
+/* El reloj */
+div.relojCSS {
+	background-color: rgb(256, 256, 256);
+	left: 25%;
+	padding: 25px;
+	color: grey;
+	font-size: 65px;
+	text-align: center;
+	letter-spacing: 10px;
+}
+
+    
+
+
+
+
+
+
+
+
+/* Recordemos del esquema que la imagen del dragon tiene la misma sangria que el texto de h3 */
+img.dragonPocaSangria {
+	height: 35%;
+	width: 35%;
+	margin-left: 5%;
+	float:left;
+}
+
+p.textoDragon {
+	float:right;
+	font-size: 40px;
+}
+
+
+h1 {
+	text-align: center;
+	font-size: 65px;
+}
+
+
+h2 {
+	text-align: center;
+	font-size: 60px;
+}
+
+
+h3 {
+	margin-left: 5%;
+	font-size: 45px;
+}
+
+
+img.unescoMuchaSangria {
+	height: 35%;
+	width: 35%;
+	margin-left: 32%;
+}
+
+
+img.palauMuchaSangria {
+	height: 55%;
+	width: 55%;
+	margin-left: 22%;
+}
+
+
+p.textoPalau {
+	text-align: center;
+	font-size: 17px;
+	font-style: italic;
+}
+
+/* escritores clásicos */
+img.clasicosMuchaSangria {
+	height: 75%;
+	width: 75%;
+	margin-left: 11%;
+}
+
+
+
+
+
+
+
+
+/* recomendaciones */
+/* referenciado en el atributo class del "<ul>" del html */
+.recs {
+	margin-left: 9%;
+	margin-right: 9%;
+	display: table;	
+}
+
+img.divRecs {
+    max-height: 98%;
+    max-width: 98%;
+	margin-left: 2%;
+	margin-right: 2%;
+	
+}
+
+
+/* usado en las listas "<li>" de las recomendaciones, dentro del "<ul>" con .recs */
+li.tableando {
+	display: inline;
+}
+
+
+/* Necesario para el carrusel de imagenes*/
+
+
+div.carruselRecs {
+	margin: auto;
+}
+
+img.portadaRec {
+	max-height: 20%;
+    max-width: 20%;
+    display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+img.portadaRecInvisible {
+	max-height: 20%;
+    max-width: 20%;
+    display: none;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+p.textosBurbuja {
+	border: 1px solid #000000;
+    overflow: hidden;
+	text-overflow: fade;
+    line-height: 18px;
+	padding: 15px;
+	margin-left: 10%;
+	margin-right: 10%;
+    border-radius: 20px;
+	text-align: center;
+	background-image: url("../imagenes/fondoBurbujas/manuscritoFondo.png");
+}
+
+
+
+
+
+
+
+
+
+/* Menú que nos lleva a una de las cuatro secciones de la página */
+div.menuNavegadorDiv {
+	background-color: rgb(173, 216, 230);
+	border-radius: 28px;
+	text-align: center;
+	/* Nos aseguraremos de configurar "font-size" y "line-height" con cuidado para que no se "pisen" las diferentes secciones del menu */
+	font-size: 30px;
+	line-height: 35px;
+	font-style: bold;
+	padding: 15px;
+	margin-left: 20%;
+	margin-right: 20%;
+	background-image: url("../imagenes/fondoMenu/pergaminoFondo.png");
+}	 
+
+
+ul.menuNavegadorUl {
+	/* La siguiente línea se asegura de que el texto de nuestro menú los puntos o "bullets" en el margen izquierdo */
+	list-style-type: none;   
+}
+
+
+
+
